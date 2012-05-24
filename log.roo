@@ -1,0 +1,15 @@
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-05-24 17:03:06
+help
+project --topLevelPackage org.springframework.social.roo
+web mvc setup
+security setup
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-05-24 17:11:33
+exit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-05-24 17:13:28
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-05-24 17:17:17
+class --class org.springframework.social.roo.config.SocialConfig
+persistence setup --provider HIBERNATE --database H2_IN_MEMORY 
+exit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-05-24 17:37:01
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-05-24 18:33:53
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-05-24 18:37:45
