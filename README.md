@@ -24,4 +24,7 @@ I then made the following changes:
 8. Added facebook.icon and facebook.displayName to messages.properties.
 9. Added &lt;intercept-url&gt; to require that the user be logged in before connecting to FB.
 10. Added FacebookProfileController and supporting views.
+11. Added ProviderSignInController to webmvc-config.xml
+12. Added SimpleSignInAdapter and SignInUtils to new org.springframework.social.roo.signin package.
+13. Added Facebook Sign-in button to login.jspx (with hardcoded context path for now).
 

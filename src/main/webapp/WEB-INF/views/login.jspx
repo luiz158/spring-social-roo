@@ -56,5 +56,12 @@
       </div>
     </form>
   </util:panel>
+  
+	<!-- FACEBOOK SIGNIN -->
+	<!-- TODO: Remove hardcoded context path -->
+	<form name="fb_signin" id="fb_signin" action="/spring-social-roo/signin/facebook" method="POST">
+		<input type="hidden" name="scope" value="publish_stream,user_photos,offline_access" />
+		<button type="submit"><img src="/spring-social-roo/images/social/facebook/sign-in-with-facebook.png" /></button>
+	</form>
 </div>
 

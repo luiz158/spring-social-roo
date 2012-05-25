@@ -74,6 +74,8 @@
     </property>
   </bean>
   
-  <bean class="org.springframework.social.connect.web.ConnectController" />
+  <bean class="org.springframework.social.connect.web.ConnectController"/>
+  
+  <bean class="org.springframework.social.connect.web.ProviderSignInController" />
   
 </beans>
