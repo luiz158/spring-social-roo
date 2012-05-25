@@ -74,9 +74,6 @@
     </property>
   </bean>
   
-  <bean class="org.springframework.social.connect.web.ConnectController">
-  	<constructor-arg ref="connectionFactoryLocator" />
-  	<constructor-arg ref="connectionRepository" />
-  </bean>
+  <bean class="org.springframework.social.connect.web.ConnectController" />
   
 </beans>
